@@ -50,9 +50,6 @@ function getAllNodes(grid) {
       nodes.push(node);
     }
   }
-
-
-
   return nodes;
 }
 

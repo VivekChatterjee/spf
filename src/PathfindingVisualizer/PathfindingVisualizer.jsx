@@ -44,6 +44,7 @@ export default class PathfindingVisualizer extends Component {
         setTimeout(() => {
           this.animateShortestPath(nodesInShortestPathOrder);
         }, 10 * i);
+        // yellow after getting the shortest path
         return;
       }
       setTimeout(() => {
@@ -51,6 +52,7 @@ export default class PathfindingVisualizer extends Component {
         document.getElementById(`node-${node.row}-${node.col}`).className =
           'node node-visited';
       }, 10 * i);
+      // blue path, travelling each path
     }
   }
 

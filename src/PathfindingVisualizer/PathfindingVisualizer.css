@@ -5,3 +5,19 @@
 #SPFbutton:hover {
   background-color: #31e1f7;
 }
+
+#SPFbutton {
+  background-color: #d6e4e5;
+  margin-bottom: 0;
+  padding: 1rem;
+  border: none;
+  letter-spacing: 0.25rem;
+  border-radius: 25px;
+}
+.grid {
+  margin-top: 1rem;
+}
+
+h2 {
+  margin: 0.5rem;
+}
